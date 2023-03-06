@@ -1,9 +1,9 @@
-<script setup lang="ts">
-import ApiTest from "@/components/ApiTest.vue";
-</script>
-
 <template>
-  <main>
-    <api-test></api-test>
+  <main class="container my-5">
+    <user-list></user-list>
   </main>
 </template>
+
+<script setup lang="ts">
+import UserList from "@/components/UserList.vue";
+</script>
